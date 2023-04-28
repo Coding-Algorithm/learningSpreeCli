@@ -1,12 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native';
+import { DonutChat } from './src';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <DonutChat />
     </View>
   );
 }
+
 
 const styles = StyleSheet.create({
   container: {
